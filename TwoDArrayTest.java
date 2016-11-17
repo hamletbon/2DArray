@@ -35,6 +35,7 @@ public class TwoDArrayTest
       {
           for (int c = 0; c < 4; c++)
           {
+              System.out.println("a2dArray[" + r + "][" + c + "]: "+counter);
               a2dArray[r][c] = counter;
               counter++;
           }
