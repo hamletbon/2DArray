@@ -13,7 +13,7 @@ public class TwoDArrayTest
     /**
      * Constructor for objects of class TwoDArrayTest
      */
-    public TwoDArrayTest()
+    public static void main()
     {
        int[][] a2dArray = new int[3][4]; 
        /*
