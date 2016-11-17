@@ -15,7 +15,8 @@ public class TwoDArrayTest
      */
     public TwoDArrayTest()
     {
-        int[][] a2dArray = new int[3][4]; 
+       int[][] a2dArray = new int[3][4]; 
+       /*
        a2dArray[0][0] = 1;
        a2dArray[0][1] = 2;
        a2dArray[0][2] = 3;
@@ -28,6 +29,16 @@ public class TwoDArrayTest
        a2dArray[2][1] = 10;
        a2dArray[2][2] = 11;
        a2dArray[2][3] = 12;
+       */
+      int counter = 0;
+      for (int r = 0; r < 3; r++)
+      {
+          for (int c = 0; c < 4; c++)
+          {
+              a2dArray[r][c] = counter;
+              counter++;
+          }
+      }
     }
 
     /**
